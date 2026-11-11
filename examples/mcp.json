@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "leadsets": {
+      "type": "http",
+      "url": "https://mcp.leadsets.ai",
+      "headers": { "Authorization": "Bearer ${LEADSETS_KEY}" }
+    }
+  }
+}
