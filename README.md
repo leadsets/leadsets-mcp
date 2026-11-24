@@ -1,5 +1,7 @@
 # Leadsets MCP server
 
+[![Leadsets MCP connector](https://glama.ai/mcp/connectors/ai.leadsets.mcp/lead-sets/badges/score.svg)](https://glama.ai/mcp/connectors/ai.leadsets.mcp/lead-sets)
+
 Leadsets is a remote [MCP](https://modelcontextprotocol.io) server that gives AI agents B2B data: people and company search, enrichment, email verification and company website scraping. Add one URL to your client and your agent gets eight tools. Nothing to install or run locally.
 
 ```
