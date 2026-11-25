@@ -95,7 +95,7 @@ Step-by-step guides for more clients are on the [integrations page](https://www.
 
 | Tool | What it does | What it uses |
 |---|---|---|
-| `search_people` | Find people by title, seniority, function, company, company size, industry and country. Each result says why it matched. | 1 search record per record returned |
+| `search_people` | Find people by title, seniority, function, company, company size, industry and country. Each result says why it matched. | 1 search record per record returned (person, company); 1 enrichment record per email |
 | `search_companies` | Find companies by industry, headcount, country and technology. | 1 search record per record returned |
 | `enrich_person` | A person from a LinkedIn URL, an email, or a name and company domain, with their work email when found. | 1 enrichment record when found |
 | `enrich_company` | A company profile from a domain or LinkedIn URL. | 1 enrichment record when found |
@@ -104,7 +104,7 @@ Step-by-step guides for more clients are on the [integrations page](https://www.
 | `scrape_jobs` | Open roles from a company's careers pages. | 1 scrape unit per page |
 | `get_usage` | What you've used and what's left on every limit. | Nothing |
 
-Empty results use no records. Every record carries when it was last checked and a confidence score, and an email is only labelled verified when it is. Tool details are in the [API reference](https://www.leadsets.ai/docs/api/people-search?utm_source=github&utm_medium=readme&utm_campaign=leadsets-mcp&utm_content=tools).
+In people search, each person is one record and their company another: pass `include_company: false` for people only. Work emails come with `include_emails: true` (or `has_verified_email`) and use 1 enrichment record each. Empty results use no records. Every record carries when it was last checked and a confidence score, and an email is only labelled verified when it is. Tool details are in the [API reference](https://www.leadsets.ai/docs/api/people-search?utm_source=github&utm_medium=readme&utm_campaign=leadsets-mcp&utm_content=tools).
 
 ## Limits and pricing
 
