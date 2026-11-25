@@ -22,7 +22,7 @@ This repository holds connection guides and examples. The server itself is hoste
 
 ## Get an API key
 
-[Create a free account](https://www.leadsets.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=leadsets-mcp&utm_content=api-key) and copy your key from **API keys** in the dashboard. Keys start with `ls_live_`. Keep yours private: don't commit it, paste it into a shared chat or put it in browser code.
+Sign-up is waitlist-only until the public launch on 10 December 2026. [Join the waitlist](https://www.leadsets.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=leadsets-mcp&utm_content=api-key). At launch, the free plan will include 1,000 enrichment records and 100 search records, no card. After you have an account, copy your key from **API keys** in the dashboard. Keys start with `ls_live_`. Keep yours private: don't commit it, paste it into a shared chat or put it in browser code.
 
 ## Connect your client
 
@@ -108,7 +108,7 @@ Empty results use no records. Every record carries when it was last checked and 
 
 ## Limits and pricing
 
-- **Free:** 1,000 enrichment records and 100 search records (up to 10 per call), one time, no card. Scraping is not on Free.
+- **Free (at public launch on 10 December 2026):** 1,000 enrichment records and 100 search records (up to 10 per call), one time, no card. Scraping is not on Free. Until then, [join the waitlist](https://www.leadsets.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=leadsets-mcp&utm_content=pricing).
 - **Paid plans:** flat monthly prices with no credits, from $29 a month, with fair-use limits per rolling five hours and per week.
 - **Scraping:** an add-on, sold in scrape units.
 
