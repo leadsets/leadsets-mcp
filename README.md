@@ -101,7 +101,7 @@ Step-by-step guides for more clients are on the [integrations page](https://www.
 | `enrich_company` | A company profile from a domain or LinkedIn URL. | 1 enrichment record when found |
 | `verify_email` | Verify one email or up to 100: verified, catch-all, unknown or invalid, with a confidence score. | 1 enrichment record per email checked |
 | `scrape_company` | Read a company's website and return structured content. | 1 scrape unit per page |
-| `scrape_jobs` | Open roles from a company's careers pages. | 1 scrape unit per page |
+| `scrape_jobs` | Open roles at a company from its website: careers page, job board and LinkedIn. Takes the website (`domain`) and `limit` (default 25). | 1 scrape unit per role returned |
 | `get_usage` | What you've used and what's left on every limit. | Nothing |
 
 In people search, each person is one record and their company another: pass `include_company: false` for people only. Work emails come with `include_emails: true` (or `has_verified_email`) and use 1 enrichment record each. Empty results use no records. Every record carries when it was last checked and a confidence score, and an email is only labelled verified when it is. Tool details are in the [API reference](https://www.leadsets.ai/docs/api/people-search?utm_source=github&utm_medium=readme&utm_campaign=leadsets-mcp&utm_content=tools).
